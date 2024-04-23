@@ -94,3 +94,60 @@ color: #2e2f42;
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+
+.login-form{
+
+}
+
+.task-four-input{
+  border: 2px solid rgb(167, 167, 167);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  outline: none;
+}
+
+
+.task-four-input:hover{
+border:2px solid #5a5a5a
+}
+
+.task-four-input:active {
+  border: 2px solid #818181
+}
+
+.task-four-input:focus {
+  border: 2px solid #818181
+}
+
+.task-four-title{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.task-four-button{
+  border-radius: 8px;
+  border-color:transparent;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background: #4e75ff;
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+}
+
+.task-four-button:hover{
+  background: #6c8cff;
+}

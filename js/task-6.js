@@ -29,11 +29,13 @@ inputEl.addEventListener("input", (event) => {
 });
 
 createBtn.addEventListener("click", () => {
+boxesEl.innerHTML = '';
   if (inputEl.value !== "") {
     createBoxes(amount);
   } else {
     alert("Enter your number");
   }
+  inputEl.value = ``;
 });
 
 destroyteBtn.addEventListener("click", () => {

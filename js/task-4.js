@@ -15,6 +15,7 @@ function fuSubmit(event) {
 
     if (emailInput.length < 1 || passwordInput < 1) {
         alert("All form fields must be filled in!");
+        return;
     }
 
     console.log(result);
